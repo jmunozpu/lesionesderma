@@ -102,7 +102,7 @@ img {
 #encabezado {
 	 background-color:#3e4729;
 	 width:100%;
-	 height:80px;
+	 height:120px;
 	 position:fixed;
 	 z-index:100;
 	 border-bottom:7px solid #88ab0c;
@@ -1061,12 +1061,12 @@ body.page-taxonomy #menu #block-menu-menu-medios {margin-top:-80px;}
 }
 #menu #block-menu-menu-medios > .content > .menu {margin-top:80px;}
 #menu #block-menu-menu-medios > .content > .menu ul {
-	background-color:#none;
+	background-color:none;
 	border-bottom:solid 0px #d6e38f;
 }
-#menu #block-menu-menu-medios ul li {background-color:#none;}
+#menu #block-menu-menu-medios ul li {background-color:none;}
 #menu #block-menu-menu-medios ul li a {
-	background-color:#none;
+	background-color:none;
 	border-bottom:1px solid #dfe1cb;
 	border-right:1px solid #dfe1cb;
 	border-width:thin;
@@ -1078,7 +1078,7 @@ body.page-taxonomy #menu #block-menu-menu-medios {margin-top:-80px;}
 	border:none;
 	margin-top:-90px;	
 }
-body.page-taxonomy #menu #block-menu-menu-medios.block{ background-color:#none;}
+body.page-taxonomy #menu #block-menu-menu-medios.block{ background-color:none;}
 body.page-medios #promocional h2 {
 	text-align:center;
 	height:40px;
@@ -2560,7 +2560,7 @@ color: #88ab0c;
     height: 209px;
     margin-top: -14px;
     width: 50%;
-	 *padding: 37px 0 0 242px;
+	padding: 37px 0 0 242px;
 	 -webkit-box-shadow: inset 7px 11px 64px -21px rgba(0,0,0,0.5);
 	-moz-box-shadow: inset 7px 11px 64px -21px rgba(0,0,0,0.5);
 	box-shadow: inset 7px 11px 64px -21px rgba(0,0,0,0.5);
@@ -2595,7 +2595,7 @@ color: #88ab0c;
 }
 .titulorobotob {
     color: white;
-	 *line-height: 0.1em;
+	line-height: 0.1em;
 }
 .tituloamaticb  {
     color: white;
@@ -2647,7 +2647,7 @@ ul.alineacion4{
     margin-top: -16px;
 	border-radius: 0 0 6px 0px;
     width: 50%;
-	 *padding: 37px 0 0 242px;
+	padding: 37px 0 0 242px;
 	-webkit-box-shadow: 0px 12px 23px 0px rgba(0,0,0,0.49);
 	-moz-box-shadow: 0px 12px 23px 0px rgba(0,0,0,0.49);
 	box-shadow: 0 0 9px #111;

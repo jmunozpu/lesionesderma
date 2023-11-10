@@ -40,7 +40,7 @@ $("#image-selector").change(function () {
 let model;
 (async function () {
 	
-	model = await tf.loadModel('model_kerasnative_v4/model.json');
+	model = await tf.loadLayersModel('model_kerasnative_v4/model.json');
 	$("#selected-image").attr("src", "assets/samplepic.jpg")
 	
 	
@@ -70,7 +70,8 @@ $("#predict-button").click(async function () {
 	image.width = 600;
   	image.height = 450;
 
-	let tensor = tf.fromPixels(image)
+	// let tensor = tf.fromPixels(image)
+	let tensor = tf.browser.fromPixels(image)
 	.resizeNearestNeighbor([224,224])
 	.toFloat();
 	
